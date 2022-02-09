@@ -1,14 +1,17 @@
 {
 	"manifest_version": 2,
-	"name": "Better Vocab",
-	"author": "Darwin",
-	"version": "1.0.1",
-	"description": "Replace new tab screen with English word",
+	"name": "Czech Vocab on New Tab",
+	"author": "BossELijah",
+	"version": "1.0",
+	"description": "Replace new tab screen with Czech words and definitions.",
 	"icons": {
-		"16": "darwinFav16.ico",
-		"48": "darwinFav48.ico",
-		"128": "darwinFav128.ico"
+		"16": "16.png",
+		"48": "48.png",
+		"128": "128.png"
 	},
+  "browser_action": {
+    "default_icon": "48.png"
+},
 	"chrome_url_overrides": {
 		"newtab": "index.html"
 	}
