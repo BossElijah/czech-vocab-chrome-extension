@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Czech Vocab on New Tab",
-  "author": "BossELijah",
+  "author": "BossElijah",
   "version": "1.0.3",
   "description": "Replace new tab screen with Czech words and definitions.",
   "icons": {
@@ -9,7 +9,7 @@
     "48": "48.png",
     "128": "128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "48.png"
   },
   "chrome_url_overrides": {
